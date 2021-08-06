@@ -1,0 +1,17 @@
+﻿@{ 
+    var inputVal = Request.Form["inputName"];
+    var inputPass = Request.Form["inputPass"];
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Auth</title>
+</head>
+<body>
+    <h1>The name is @inputVal</h1><br /><br />
+    <h1>The password is @inputPass</h1>
+</body>
+</html>
